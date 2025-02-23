@@ -1,0 +1,71 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directories
+build/
+dist/
+.expo/
+.expo-shared/
+
+# Dependency directories
+jspm_packages/
+
+# Debug logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local 
+.env.production.local
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# React Native specific
+# Expo
+.expo/
+web-build/
+
+# iOS
+ios/build/
+ios/Pods/
+ios/*.xcworkspace
+ios/*.xcodeproj
+ios/*.xcuserstate
+
+# Android
+android/.gradle/
+android/app/build/
+android/local.properties
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.pem
+*.p12
+*.key
+*.mobileprovision
+*.orig
