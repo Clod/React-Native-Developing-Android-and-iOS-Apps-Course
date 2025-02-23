@@ -15,7 +15,7 @@ const getTime = (timeZone) =>
 // Function to get weather data for a city with error handling
 const getWeather = async (city) => {
   try {
-    const apiKey = 'd80f280c9e256dcf041daa8984d9714a'; // Replace with your API key
+    const apiKey = '<API Key>; // Replace with your API key
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
     const response = await fetch(url);
     const data = await response.json();
